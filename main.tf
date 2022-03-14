@@ -170,7 +170,7 @@ data "aws_ami" "amazon-linux-2" {
 #ssh
 resource "aws_key_pair" "ssh-key" {
   key_name   = "ssh-key"
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDJyXWKwAHMr2TNRWoR5dIIvyFvlKIHyTbAZ2seBICWYGN0xvBSHQv0uD89ZKIfDmhYwU/VtkNSRGGI6MvTEaPAPDCV9x0aZJMC+N2jjYU9p5j3W30bPuT7YVl7hQ7/RBZIhT3UNMxR9pO9lECbhWU/FhvBjSTPLyWULWhn3KHtAB4TjmvCUSO3dpZAzhPTNKJuL0hcZ+RHRGIRQBJmecr37MpBXqkJEFbmZKPiYlhL1G8ohWc6zatUN8acXyhAwesMdYqDTm4qMdN1cunSUT+2zpYE/D4FhsJW6VSE21p51C7i4u6bNnqDUjaZOPPvw8Zl906JbDZ3nXmhAZT4Yl9SS/bN8nQRBiEEG6kqElbXyec+MaS7T5BK0oztpknntWm+bEGc9N6NXRmpUmbb7kobipLeH3eoVuA3mr1/l9WLlLKCdIjTOxLPvrUqSGRRUlUF2ENitZVVjnbRiHATnZxazwQdJrn+MWp2Vp0BVwg3EtiMvWETaILX1Q1bsQivDss= desislavat@BUL0002176.local"
+  public_key = "ssh-rsa"
 } #end resource
 
 #EC2
